@@ -64,6 +64,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    flex-wrap: wrap;
     height: 90vh;
     width: 1128px;
     /* background-size: cover; */
@@ -111,6 +112,14 @@ body {
 }
 
 .section-p1 {
+    padding: 40px 80px;
+}
+
+.section-p2 {
+    padding: 40px 80px;
+}
+
+.section-p3 {
     padding: 40px 80px;
 }
 
@@ -378,3 +387,63 @@ button.normal {
 .section-m2 {
     margin: 40px 0;
 }
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/products/banner4.avif");
+    min-width: 500px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner h4{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color:#fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url(img/products/banner3.avif);
+}
+
