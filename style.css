@@ -447,3 +447,51 @@ button.white {
     background-image: url(img/products/banner3.avif);
 }
 
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/products/banner6.avif");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2 {
+    color: #00ff00;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #0ef019;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .h2-style-box2 {
+    color: #f00d99;
+}
+
+#banner3 .h3-style-box2 {
+    color: #0ef019;
+}
+
+#banner3 .banner-box2{
+    background-image: url("img/products/banner7.avif");
+}
+
+#banner3 .banner-box3 {
+    background-image: url("img/products/banner8.avif");
+}
